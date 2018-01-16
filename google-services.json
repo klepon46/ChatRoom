@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "752580340957",
+    "firebase_url": "https://chatroom-303e6.firebaseio.com",
+    "project_id": "chatroom-303e6",
+    "storage_bucket": "chatroom-303e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752580340957:android:c04648bf719d29cd",
+        "android_client_info": {
+          "package_name": "id.klepontech.chatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752580340957-bkbof5nne0140eds7grkiqdd88tq7ul3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.klepontech.chatroom",
+            "certificate_hash": "09bbff1e25c9ad20d117b308d59a19021dbc681f"
+          }
+        },
+        {
+          "client_id": "752580340957-lib2821tao7h7imu6fcl66m0st5e55dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0JP988QC-ZEJxPrR5T4ydiBLvkl7BFnY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752580340957-lib2821tao7h7imu6fcl66m0st5e55dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

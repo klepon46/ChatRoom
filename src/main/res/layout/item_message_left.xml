@@ -10,19 +10,11 @@
     android:paddingRight="16dp"
     android:paddingTop="5dp">
 
-    <ImageView
-        android:id="@+id/ivUserChat"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_alignBottom="@+id/contentMessageChat" />
-
     <me.himanshusoni.chatmessageview.ChatMessageView
         android:id="@+id/contentMessageChat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@id/ivUserChat"
-        android:layout_toRightOf="@id/ivUserChat"
         app:cmv_arrowGravity="end"
         app:cmv_arrowPosition="left"
         app:cmv_backgroundColor="#fff"
@@ -31,11 +23,18 @@
         app:cmv_showArrow="true">
 
         <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff" />
+
+        <TextView
             android:id="@+id/txtMessage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textIsSelectable="true" />
 
     </me.himanshusoni.chatmessageview.ChatMessageView>
@@ -47,8 +46,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/contentMessageChat"
         android:layout_marginLeft="10dp"
-        android:layout_toEndOf="@id/ivUserChat"
-        android:layout_toRightOf="@id/ivUserChat"
         android:paddingLeft="10dp"
         android:paddingTop="6dp"
         android:text="22/06/2016"

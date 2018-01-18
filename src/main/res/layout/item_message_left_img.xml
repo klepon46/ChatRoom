@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:paddingBottom="5dp"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp">
+    android:paddingRight="16dp">
+
 
     <me.himanshusoni.chatmessageview.ChatMessageView
         android:id="@+id/contentMessageChat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="right"
         app:cmv_arrowGravity="end"
         app:cmv_arrowMargin="3dp"
         app:cmv_arrowPosition="right"
-        app:cmv_backgroundColor="@color/colorAccent"
+        app:cmv_backgroundColor="#fff"
         app:cmv_backgroundColorPressed="#FFBABABA"
         app:cmv_contentPadding="10dp"
         app:cmv_cornerRadius="3dp"
@@ -29,19 +27,35 @@
             android:id="@+id/txtUserName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="My Name"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#fff" />
+            android:textColor="#000"
+            android:textSize="10sp" />
 
-        <TextView
-            android:id="@+id/txtMessage"
+        <ImageView
+            android:id="@+id/img_chat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#fff"
-            android:textIsSelectable="true" />
+            android:layout_below="@id/txtUserName"
+            android:background="#000"
+            android:maxHeight="150dp"
+            android:maxWidth="150dp"
+            android:minHeight="100dp"
+            android:minWidth="100dp" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_chat"
+            android:layout_marginTop="2dp"
+            android:text="My Location"
+            android:textColor="#000"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
 
     </me.himanshusoni.chatmessageview.ChatMessageView>
-
 
     <TextView
         android:id="@+id/timestamp"

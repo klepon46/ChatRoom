@@ -38,7 +38,8 @@
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="#fff"
-            android:textIsSelectable="true" />
+            android:textIsSelectable="true"
+            android:layout_below="@id/txtUserName"/>
 
     </me.himanshusoni.chatmessageview.ChatMessageView>
 

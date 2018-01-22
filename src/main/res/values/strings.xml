@@ -6,4 +6,5 @@
     <string name="sharedPrefKey">MyPref</string>
     <string name="sendPhotoGallery">Send photo</string>
     <string name="sendLocation">Send location</string>
+    <string name="select_picture_title">Get photo from</string>
 </resources>

@@ -8,7 +8,7 @@
     android:orientation="horizontal"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:paddingTop="5dp">
+    android:paddingTop="4dp">
 
     <me.himanshusoni.chatmessageview.ChatMessageView
         android:id="@+id/contentMessageChat"
@@ -47,6 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/contentMessageChat"
         android:layout_marginLeft="10dp"
+        android:gravity="left"
         android:paddingLeft="10dp"
         android:paddingTop="6dp"
         android:text="22/06/2016"

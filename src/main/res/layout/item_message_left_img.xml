@@ -7,7 +7,8 @@
     android:orientation="horizontal"
     android:paddingBottom="5dp"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp">
+    android:paddingRight="16dp"
+    android:paddingTop="4dp">
 
 
     <me.himanshusoni.chatmessageview.ChatMessageView
@@ -16,7 +17,7 @@
         android:layout_height="wrap_content"
         app:cmv_arrowGravity="end"
         app:cmv_arrowMargin="3dp"
-        app:cmv_arrowPosition="right"
+        app:cmv_arrowPosition="left"
         app:cmv_backgroundColor="#fff"
         app:cmv_backgroundColorPressed="#FFBABABA"
         app:cmv_contentPadding="10dp"
@@ -64,6 +65,7 @@
         android:layout_alignRight="@id/contentMessageChat"
         android:layout_below="@id/contentMessageChat"
         android:layout_marginBottom="25dp"
+        android:gravity="left"
         android:padding="10dp"
         android:text="22/06/2016"
         android:textSize="10sp" />

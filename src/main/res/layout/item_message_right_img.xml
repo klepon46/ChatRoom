@@ -20,7 +20,7 @@
         app:cmv_arrowMargin="3dp"
         app:cmv_arrowPosition="right"
         app:cmv_backgroundColor="@color/ownChatBubbleColor"
-        app:cmv_backgroundColorPressed="#FFBABABA"
+        app:cmv_backgroundColorPressed="@color/myGray"
         app:cmv_contentPadding="10dp"
         app:cmv_cornerRadius="3dp"
         app:cmv_showArrow="true">
@@ -31,8 +31,9 @@
             android:layout_height="wrap_content"
             android:text="My Name"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#fff"
-            android:textSize="10sp" />
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/img_chat"
@@ -52,7 +53,7 @@
             android:layout_below="@+id/img_chat"
             android:layout_marginTop="2dp"
             android:text="My Location"
-            android:textColor="#fff"
+            android:textColor="@color/plainWhite"
             android:textSize="10sp"
             android:textStyle="bold"
             android:visibility="gone" />

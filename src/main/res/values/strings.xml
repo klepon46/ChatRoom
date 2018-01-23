@@ -4,7 +4,8 @@
     <string name="next">Next</string>
     <string name="profileNameKey">com.klepontech.chatroom.PROFILE_NAME</string>
     <string name="sharedPrefKey">MyPref</string>
-    <string name="sendPhotoGallery">Send photo</string>
+    <string name="sendPhotoGallery">Send gallery image</string>
     <string name="sendLocation">Send location</string>
     <string name="select_picture_title">Get photo from</string>
+    <string name="sendPhotoCamera">Send camera image</string>
 </resources>

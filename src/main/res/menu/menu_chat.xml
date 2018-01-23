@@ -4,6 +4,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:title="@string/sendPhotoCamera"
+        android:id="@+id/sendPhotoCamera"
+        app:showAsAction="never"/>
+
+    <item
         android:title="@string/sendPhotoGallery"
         android:id="@+id/sendPhotoGallery"
         app:showAsAction="never"/>

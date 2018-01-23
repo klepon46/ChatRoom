@@ -29,10 +29,11 @@
 
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.ProfileActivity" />
-        <activity android:name=".ChatRoom" />
-        <activity android:name=".activity.FullScreenImageActivity" />
         <activity
-            android:name=".activity.ChatRoomTwo"
+            android:name=".activity.FullScreenImageActivity"
+            android:parentActivityName=".activity.ChatRoomActivity" />
+        <activity
+            android:name=".activity.ChatRoomActivity"
             android:parentActivityName=".activity.MainActivity" />
 
         <provider

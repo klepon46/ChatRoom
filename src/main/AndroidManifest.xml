@@ -30,8 +30,7 @@
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.ProfileActivity" />
         <activity
-            android:name=".activity.FullScreenImageActivity"
-            android:parentActivityName=".activity.ChatRoomActivity" />
+            android:name=".activity.FullScreenImageActivity"/>
         <activity
             android:name=".activity.ChatRoomActivity"
             android:parentActivityName=".activity.MainActivity" />

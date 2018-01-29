@@ -36,8 +36,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/txtUserName"
+            android:autoLink="web"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="#000"
+            android:textColorLink="@color/linkBlue"
             android:textIsSelectable="true" />
 
     </me.himanshusoni.chatmessageview.ChatMessageView>

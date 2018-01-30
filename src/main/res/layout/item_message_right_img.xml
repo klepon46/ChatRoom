@@ -10,11 +10,21 @@
     android:paddingRight="16dp"
     android:paddingTop="4dp">
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivUserChat"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/contentMessageChat"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_account_circle" />
 
     <me.himanshusoni.chatmessageview.ChatMessageView
         android:id="@+id/contentMessageChat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/ivUserChat"
+        android:layout_toStartOf="@id/ivUserChat"
         android:gravity="right"
         app:cmv_arrowGravity="end"
         app:cmv_arrowMargin="3dp"

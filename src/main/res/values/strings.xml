@@ -3,6 +3,7 @@
     <string name="name">Name :</string>
     <string name="next">Next</string>
     <string name="profileNameKey">com.klepontech.chatroom.PROFILE_NAME</string>
+    <string name="profileUrlPhotoKey">profileImage</string>
     <string name="sharedPrefKey">MyPref</string>
     <string name="sendPhotoGallery">Send gallery image</string>
     <string name="sendLocation">Send location</string>

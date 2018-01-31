@@ -10,11 +10,19 @@
     android:paddingRight="16dp"
     android:paddingTop="4dp">
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivUserChat"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/contentMessageChat" />
+
     <me.himanshusoni.chatmessageview.ChatMessageView
         android:id="@+id/contentMessageChat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/ivUserChat"
+        android:layout_toRightOf="@id/ivUserChat"
         app:cmv_arrowGravity="end"
         app:cmv_arrowPosition="left"
         app:cmv_backgroundColor="@color/plainWhite"
@@ -51,6 +59,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/contentMessageChat"
         android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/ivUserChat"
+        android:layout_toRightOf="@id/ivUserChat"
         android:gravity="left"
         android:paddingLeft="10dp"
         android:paddingTop="6dp"

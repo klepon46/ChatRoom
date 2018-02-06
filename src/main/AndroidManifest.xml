@@ -19,7 +19,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDg7aGIWEpl02iOEHBsCvyj6WMoJdDAmv0" />
 
-        <activity android:name=".activity.SignInActivity">
+        <activity android:name=".activity.SignInActivityCustom">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,12 +28,16 @@
         </activity>
 
         <activity android:name=".activity.MainActivity" />
+
         <activity android:name=".activity.ProfileActivity" />
-        <activity
-            android:name=".activity.FullScreenImageActivity"/>
+
+        <activity android:name=".activity.FullScreenImageActivity" />
+
         <activity
             android:name=".activity.ChatRoomActivity"
             android:parentActivityName=".activity.MainActivity" />
+
+        <activity android:name=".activity.VerifySignInCodeActivity" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"

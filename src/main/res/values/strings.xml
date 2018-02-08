@@ -10,4 +10,6 @@
     <string name="select_picture_title">Get photo from</string>
     <string name="sendPhotoCamera">Send camera image</string>
     <string name="update">Update</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
 </resources>

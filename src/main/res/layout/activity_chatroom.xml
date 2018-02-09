@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
     android:id="@+id/contentRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#e2e0de">
+    android:background="#e2e0de"
+    android:orientation="vertical">
 
+    <include
+        android:id="@+id/toolbar_chat"
+        layout="@layout/toolbar_chatroom" />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -28,15 +29,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/plainWhite"
         android:orientation="horizontal"
-        android:weightSum="1"
-        android:background="#ffffff">
+        android:weightSum="1">
 
         <ImageButton
             android:id="@+id/btnPopupMenu"
             style="?android:attr/actionOverflowButtonStyle"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_attach_file_black_24dp" />
+        <!--style="?android:attr/actionOverflowButtonStyle"    -->
 
         <EditText
             android:id="@+id/etMessage"

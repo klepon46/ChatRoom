@@ -35,7 +35,8 @@
 
         <activity
             android:name=".activity.ChatRoomActivity"
-            android:parentActivityName=".activity.MainActivity" />
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/SelvedinThemeChatActivity" />
 
         <activity android:name=".activity.VerifySignInCodeActivity" />
 

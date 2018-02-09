@@ -9,10 +9,15 @@
     </style>
 
     <style name="SelvedinTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">#8f5db7</item>
-        <item name="colorPrimaryDark">#59267c</item>
-        <item name="colorAccent">#a5cfd5</item>
-        <!--<item name="windowBackground">#e2d4e7</item>-->
+        <item name="colorPrimary">@color/colorPrimaryChat</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkChat</item>
+        <item name="colorAccent">@color/colorAccentChat</item>
+    </style>
+
+    <style name="SelvedinThemeChatActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryChat</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkChat</item>
+        <item name="colorAccent">@color/colorAccentChat</item>
     </style>
 
     <style name="FullScreen.TextAppearance.Title" parent="TextAppearance.AppCompat.Title">

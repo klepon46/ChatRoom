@@ -7,4 +7,8 @@
     <color name="plainWhite">#fff</color>
     <color name="myGray">#FFBABABA</color>
     <color name="linkBlue">#0000ff</color>
+    <color name="colorPrimaryChat">#8f5db7</color>
+    <color name="colorPrimaryDarkChat">#59267c</color>
+    <color name="colorAccentChat">#a5cfd5</color>
+
 </resources>
